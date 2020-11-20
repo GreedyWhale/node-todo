@@ -4,14 +4,13 @@
  * @Author: MADAO
  * @Date: 2020-11-19 14:38:12
  * @LastEditors: MADAO
- * @LastEditTime: 2020-11-20 14:29:14
+ * @LastEditTime: 2020-11-20 16:01:59
  */
 
-const { Command } = require('commander')
+const { program } = require('commander')
 const { addTodo, showTodoItems, clearTodo, printStoragePath, editTodo } = require('./action')
 
 
-const program = new Command()
 program.version('1.0.0')
 
 program
