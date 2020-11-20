@@ -1,0 +1,14 @@
+{
+  "name": "node-todo",
+  "version": "1.0.0",
+  "description": "一个todo-list的命令行工具",
+  "main": "index.js",
+  "repository": "git@github.com:GreedyWhale/node-todo.git",
+  "author": "Caisr <383911973@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^6.2.0",
+    "inquirer": "^7.3.3",
+    "ora": "^5.1.0"
+  }
+}
